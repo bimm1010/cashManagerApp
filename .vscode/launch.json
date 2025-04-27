@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:CashManagerApp}",
+      "name": "Debug CashManagerApp",
+      "program": "/Volumes/Home_EX/Home_mac/Documents/Workplaces/Swift /CashManagerApp/.build/debug/CashManagerApp",
+      "preLaunchTask": "swift: Build Debug CashManagerApp"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:CashManagerApp}",
+      "name": "Release CashManagerApp",
+      "program": "/Volumes/Home_EX/Home_mac/Documents/Workplaces/Swift /CashManagerApp/.build/release/CashManagerApp",
+      "preLaunchTask": "swift: Build Release CashManagerApp"
+    }
+  ]
+}
